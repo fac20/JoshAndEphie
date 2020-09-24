@@ -1,4 +1,6 @@
-const randomFunction = () => {
+const randomFunction
+ = () 
+ => {
   return 12;
 };
 
