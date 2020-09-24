@@ -1,10 +1,5 @@
-const randomFunction
- = () 
- => {
+const randomFunction = () => {
   return 12;
 };
 
-// randomFunction();
-
-
-//test
+randomFunction();
