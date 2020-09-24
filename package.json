@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prettier": "./node_modules/.bin/prettier . --write",
     "lint": "./node_modules/.bin/eslint . --fix"
-
   },
   "keywords": [],
   "author": "",
@@ -26,6 +24,6 @@
     "hooks": {
       "pre-commit": "npm run prettier && npm run lint && npm run test",
       "pre-push": "npm test"
-    }}
-  
+    }
+  }
 }
